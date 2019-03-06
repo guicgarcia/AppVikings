@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BjornActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        app:srcCompat="@drawable/bjorn" />
+
+    <TextView
+        android:id="@+id/btnBjorn_Lagertha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="Bjorn"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnBjorn_Lagertha"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-165dp"
+        android:layout_marginBottom="132dp"
+        android:text='Biorno Braço de Ferro foi um lendário caudilho viquingue, de origem dinamarquesa, que teria vivido no século IX. Segundo a lenda, a alcunha Järnsida foi-lhe atribuída por ele ser "invulnerável", depois de a mãe lhe ter dado uma poção mágica.' />
+
+    <Button
+        android:id="@+id/btnLagertha_Bjorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="74dp"
+        android:text="Lagertha" />
+
+    <Button
+        android:id="@+id/btnRagnar_Bjorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnLagertha_Bjorn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:text="Ragnar" />
+
+    <Button
+        android:id="@+id/btnFloki_Bjorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnLagertha_Bjorn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:text="Floki" />
+
+    <Button
+        android:id="@+id/btnAthelstan_Bjorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnFloki_Bjorn"
+        android:layout_alignBottom="@+id/btnRagnar_Bjorn"
+        android:text="Athelstan" />
+
+    <TextView
+        android:id="@+id/textoBjorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/anteriorBjorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnBjorn_Lagertha"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-64dp" />
+
+</RelativeLayout>

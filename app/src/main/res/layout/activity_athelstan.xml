@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AthelstanActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="123dp"
+        app:srcCompat="@drawable/athelstan" />
+
+    <TextView
+        android:id="@+id/btnAthelstan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-123dp"
+        android:text="Athelstan"
+        android:textSize="24sp"
+        tools:text="Athelstan" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="115dp"
+        android:text="Etelstano foi o rei dos anglo-saxões de 924 até 927, quando conquistou todo o território inglês, passando a reinar como rei dos ingleses até sua morte. Era filho do rei Eduardo, o Velho, e sua primeira esposa Ecgvina." />
+
+    <Button
+        android:id="@+id/btnRagnar_Athelstan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginBottom="36dp"
+        android:text="Ragnar" />
+
+    <Button
+        android:id="@+id/btnBjorn_Athelstan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnRagnar_Athelstan"
+        android:layout_toEndOf="@+id/btnAthelstan"
+        android:text="Bjorn" />
+
+    <TextView
+        android:id="@+id/TextoAthelstan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnRagnar_Athelstan"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/anteriorAthelstan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnRagnar_Athelstan"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp" />
+
+</RelativeLayout>

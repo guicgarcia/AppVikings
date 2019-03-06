@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LagerthaActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        app:srcCompat="@drawable/lagertha" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="72dp"
+        android:layout_toEndOf="@+id/btnBjorn_Lagertha"
+        android:text="Lagertha"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnBjorn_Lagertha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginBottom="29dp"
+        android:text="Bjorn " />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="88dp"
+        android:text='Lagertha foi, de acordo com as lendas locais, uma skjaldmö ("donzela do escudo") viquingue que viveu no território da atual Noruega, esposa do célebre guerreiro viquingue Ragnar Calças Peludas. Sua história, tal como registrada pelo cronista Saxão Gramático, no livro Feitos dos Danos, século XII.' />
+
+    <TextView
+        android:id="@+id/personagemAnterior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnBjorn_Lagertha"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:id="@+id/lbTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnBjorn_Lagertha"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:id="@+id/btnRagnar_Lagertha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnBjorn_Lagertha"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:text="Ragnar" />
+
+</RelativeLayout>
